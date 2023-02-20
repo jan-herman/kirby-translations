@@ -1,0 +1,31 @@
+/* Translation Status Field */
+.k-field-translation-status .k-icon-globe{
+    color: var(--color-notice-light);
+}
+
+.k-field-translation-status--is-translated .k-icon-globe{
+    color: var(--color-positive-light);
+}
+
+.k-field-translation-status-info{
+    margin-bottom: 1px; /* Bugfix: Info field is 1px shorter than toggle field. */
+}
+
+
+/* Translation Status Indicator */
+.k-list-item .k-translation-status{
+    margin-left: 20px;
+    transform: translateY(-2px);
+}
+
+.k-cards-item .k-translation-status{
+    position: absolute;
+    bottom: 9.5px;
+    right: 76px;
+}
+
+.k-cardlets-item .k-translation-status{
+    position: absolute;
+    bottom: 12px;
+    right: 76px;
+}

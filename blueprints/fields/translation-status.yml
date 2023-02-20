@@ -1,0 +1,9 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/toggle
+
+label: jan-herman.translations.translation-status-field.label
+
+type: translationStatus
+
+text:
+    - jan-herman.translations.translation-status-field.waiting-for-approval
+    - jan-herman.translations.translation-status-field.approved
