@@ -1,9 +1,10 @@
 {
     "name": "jan-herman/kirby-translations",
     "description": "Collection of translation utilities for Kirby CMS.",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "type": "kirby-plugin",
     "license": "MIT",
+    "homepage": "https://github.com/jan-herman/kirby-translations",
     "authors": [
         {
             "name": "Jan Herman",
@@ -13,7 +14,9 @@
     ],
     "require": {
         "php": "^8.1",
-        "getkirby/composer-installer": "^1.2"
+        "getkirby/cms": "^4.0",
+        "getkirby/composer-installer": "^1.2",
+        "junohamburg/kirby-language-selector": "^1.1.4"
     },
     "extra": {
 		"installer-name": "translations"
